@@ -21,7 +21,9 @@ const VuTienAnh: React.FC = () => {
         <tr>
           <td>1</td>
           <td></td>
-          <td></td>
+          <td rowSpan={2}>
+            <Subject id="" name="DSA (practice)" room="?" lecturer="" />
+          </td>
           <td rowSpan={2}>
             <Subject id="" name="C/C++ (practice)" room="206CT1" lecturer="" />
           </td>
@@ -36,7 +38,6 @@ const VuTienAnh: React.FC = () => {
         </tr>
         <tr>
           <td>2</td>
-          <td></td>
           <td></td>
           <td></td>
           <td></td>
@@ -81,8 +82,8 @@ const VuTienAnh: React.FC = () => {
           <td rowSpan={2}>
             <Subject id="" name="Evolution (practice)" room="235T1" lecturer="" />
           </td>
-          <td rowSpan={2}>
-            <Subject id="" name="Genetics (practice)" room="235T1" lecturer="" />
+          <td rowSpan={3}>
+            <Subject id="" name="DSA (theory)" room="103T4" lecturer="" />
           </td>
           <td rowSpan={2}>
             <Subject id="" name="Vertebrate (theory)" room="306T5" lecturer="" />
@@ -108,12 +109,13 @@ const VuTienAnh: React.FC = () => {
           <td></td>
           <td></td>
           <td></td>
-          <td></td>
         </tr>
         <tr>
           <td>9</td>
           <td></td>
-          <td></td>
+          <td rowSpan={2}>
+            <Subject id="" name="Genetics (practice)" room="235T1" lecturer="" />
+          </td>
           <td></td>
           <td rowSpan={2}>
             <Subject id="" name="Evolution (theory)" room="403T5" lecturer="" />
@@ -123,7 +125,6 @@ const VuTienAnh: React.FC = () => {
         </tr>
         <tr>
           <td>10</td>
-          <td></td>
           <td></td>
           <td></td>
           <td></td>
