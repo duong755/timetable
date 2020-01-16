@@ -1,14 +1,5 @@
 import React from "react";
-import PropTypes from "prop-types";
-
-export interface SubjectInfoFilter {
-  id?: boolean;
-  name?: boolean;
-  room?: boolean;
-  lecturer?: boolean;
-  note?: boolean;
-}
-
+import * as PropTypes from "prop-types";
 export interface SubjectProps {
   id: string;
   name?: string | null | undefined;
