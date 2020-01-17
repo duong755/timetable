@@ -23,8 +23,8 @@ const VuTienAnh: React.FC = () => {
       <tbody>
         <tr>
           <td>1</td>
-          <td className={clsx(classes.subject)} rowSpan={2}>
-            <Subject id="" name="Ho Chi Minh Ideology" room="203 T4" lecturer="" />
+          <td className={clsx(classes.subject)} rowSpan={3}>
+            <Subject id="" name="Communist party of Vietnam" room="208 T5" lecturer="" />
           </td>
           <td className={clsx(classes.subject)} rowSpan={2}>
             <Subject id="" name="DSA (practice)" room="?" lecturer="" />
@@ -48,7 +48,6 @@ const VuTienAnh: React.FC = () => {
         </tr>
         <tr>
           <td>3</td>
-          <td></td>
           <td></td>
           <td></td>
           <td className={clsx(classes.subject)} rowSpan={3}>
