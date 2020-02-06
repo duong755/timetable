@@ -82,9 +82,7 @@ const VuTienAnh: React.FC = () => {
           <td className={clsx(classes.subject)} rowSpan={2}>
             <Subject id="" name="Animal physiology (theory)" room="514T4" lecturer="" />
           </td>
-          <td className={clsx(classes.subject)} rowSpan={2}>
-            <Subject id="" name="Evolution (practice)" room="235T1" lecturer="" />
-          </td>
+          <td></td>
           <td className={clsx(classes.subject)} rowSpan={3}>
             <Subject id="" name="DSA (theory)" room="103T4" lecturer="" note="(optional)" />
           </td>
@@ -120,9 +118,7 @@ const VuTienAnh: React.FC = () => {
             <Subject id="" name="Genetics (practice)" room="235T1" lecturer="" />
           </td>
           <td></td>
-          <td className={clsx(classes.subject)} rowSpan={2}>
-            <Subject id="" name="Evolution (theory)" room="403T5" lecturer="" />
-          </td>
+          <td></td>
           <td></td>
           <td></td>
         </tr>
