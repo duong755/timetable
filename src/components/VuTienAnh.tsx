@@ -26,9 +26,7 @@ const VuTienAnh: React.FC = () => {
           <td className={clsx(classes.subject)} rowSpan={3}>
             <Subject id="" name="Communist party of Vietnam" room="208 T5" lecturer="" />
           </td>
-          <td className={clsx(classes.subject)} rowSpan={2}>
-            <Subject id="" name="DSA (practice)" room="?" lecturer="" note="(optional)" />
-          </td>
+          <td></td>
           <td className={clsx(classes.subject)} rowSpan={2}>
             <Subject id="" name="C/C++ (practice)" room="206CT1" lecturer="" />
           </td>
@@ -43,6 +41,7 @@ const VuTienAnh: React.FC = () => {
         </tr>
         <tr>
           <td>2</td>
+          <td></td>
           <td></td>
           <td></td>
         </tr>
@@ -67,7 +66,9 @@ const VuTienAnh: React.FC = () => {
           <td className={clsx(classes.subject)} rowSpan={2}>
             <Subject id="" name="Vertebrate (practice)" room="136T1" lecturer="" />
           </td>
-          <td></td>
+          <td className={clsx(classes.subject)} rowSpan={2}>
+            <Subject id="" name="Ho Chi Minh's Ideology" room="202T5" lecturer="" />
+          </td>
           <td></td>
           <td></td>
         </tr>
@@ -75,13 +76,10 @@ const VuTienAnh: React.FC = () => {
           <td>5</td>
           <td></td>
           <td></td>
-          <td></td>
         </tr>
         <tr>
           <td>6</td>
-          <td className={clsx(classes.subject)} rowSpan={2}>
-            <Subject id="" name="Animal physiology (theory)" room="514T4" lecturer="" />
-          </td>
+          <td></td>
           <td></td>
           <td className={clsx(classes.subject)} rowSpan={3}>
             <Subject id="" name="DSA (theory)" room="103T4" lecturer="" note="(optional)" />
@@ -92,13 +90,14 @@ const VuTienAnh: React.FC = () => {
           <td className={clsx(classes.subject)} rowSpan={3}>
             <Subject id="" name="Differential equation" room="403T5" lecturer="" />
           </td>
-          <td className={clsx(classes.subject)} rowSpan={2}>
-            <Subject id="" name="Animal phisiology (practice)" room="432T1" lecturer="" />
-          </td>
+          <td></td>
           <td></td>
         </tr>
         <tr>
           <td>7</td>
+          <td></td>
+          <td></td>
+          <td></td>
           <td></td>
         </tr>
         <tr>
@@ -124,6 +123,7 @@ const VuTienAnh: React.FC = () => {
         </tr>
         <tr>
           <td>10</td>
+          <td></td>
           <td></td>
           <td></td>
           <td></td>
