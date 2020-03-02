@@ -10,12 +10,12 @@ const NgoQuangDuong: React.FC = () => {
     <table className="table table-striped table-hover table-bordered">
       <thead>
         <tr>
-          <td></td>
-          <td>mon</td>
-          <td>tue</td>
-          <td>wed</td>
-          <td>thu</td>
-          <td>fri</td>
+          <th></th>
+          <th>mon</th>
+          <th>tue</th>
+          <th>wed</th>
+          <th>thu</th>
+          <th>fri</th>
         </tr>
       </thead>
       <tbody>
@@ -58,12 +58,9 @@ const NgoQuangDuong: React.FC = () => {
               name="Tin học cơ sở 1"
               room="PM207 G2"
               lecturer="CN. Nguyễn Thành Sơn"
-              note="(học ngày 05/02 & 26/02/2020)"
             />
           </td>
-          <td className={clsx(classes.subject)} rowSpan={3}>
-            <Subject id="INT3209 2" name="Khai phá dữ liệu" room="107 G2" lecturer="PGS.TS. Phan Xuân Hiếu" />
-          </td>
+          <td></td>
           <td className={clsx(classes.subject)} rowSpan={3}>
             <Subject id="HIS1002 1" name="Đường lối" room="303 GĐ2" lecturer="Trường ĐHKHXH&NV" />
           </td>
@@ -72,16 +69,18 @@ const NgoQuangDuong: React.FC = () => {
           <td>5</td>
           <td></td>
           <td></td>
+          <td></td>
         </tr>
         <tr>
           <td>6</td>
+          <td></td>
           <td></td>
           <td></td>
         </tr>
         <tr>
           <td>7</td>
           <td className={clsx(classes.subject)} rowSpan={2}>
-            <Subject id="INT2207 4" name="Cơ sở dữ liệu" room="PM207 G2" lecturer="ThS. Vương Thị Hải Yến" />
+            <Subject id="INT2207 4" name="Cơ sở dữ liệu" room="PM207 G2" lecturer="CN. Nguyễn Thị Thu Trang A" />
           </td>
           <td></td>
           <td className={clsx(classes.subject)} rowSpan={2}>
@@ -99,9 +98,7 @@ const NgoQuangDuong: React.FC = () => {
         <tr>
           <td>9</td>
           <td></td>
-          <td className={clsx(classes.subject)} rowSpan={2}>
-            <Subject id="PES1025 6" name="Bóng đá" room="Sân ĐHNN" />
-          </td>
+          <td></td>
           <td></td>
           <td></td>
           <td></td>
@@ -125,7 +122,6 @@ const NgoQuangDuong: React.FC = () => {
               name="Tin học cơ sở 1"
               room="107-G2"
               lecturer="ThS. Lương Việt Nguyên"
-              note="(học ngày 14/02 và 06/03/2020)"
             />
           </td>
         </tr>
@@ -133,7 +129,7 @@ const NgoQuangDuong: React.FC = () => {
           <td>12</td>
           <td></td>
           <td className={clsx(classes.subject)} rowSpan={3}>
-            <Subject id="INT3120 ?" name="Phát triển ứng dụng di động" room="3-G3" />
+            <Subject id="INT3120 4" name="Phát triển ứng dụng di động" room="3-G3" lecturer="PGS. Trương Anh Hoàng" />
           </td>
           <td></td>
           <td></td>

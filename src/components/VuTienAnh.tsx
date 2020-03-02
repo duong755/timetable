@@ -10,14 +10,14 @@ const VuTienAnh: React.FC = () => {
     <table className="table table-striped table-hover table-bordered">
       <thead>
         <tr>
-          <td></td>
-          <td>mon</td>
-          <td>tue</td>
-          <td>wed</td>
-          <td>thu</td>
-          <td>fri</td>
-          <td>sat</td>
-          <td>sun</td>
+          <th></th>
+          <th>mon</th>
+          <th>tue</th>
+          <th>wed</th>
+          <th>thu</th>
+          <th>fri</th>
+          <th>sat</th>
+          <th>sun</th>
         </tr>
       </thead>
       <tbody>

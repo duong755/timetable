@@ -10,7 +10,7 @@ const App: React.FC = () => (
       <h3>Thời khóa biểu học kỳ 2, năm học 2019-2020</h3>
     </div>
     <div className="p-3">
-      <NavLink className="btn" to="/">
+      <NavLink className="btn" exact activeClassName="btn-primary" to="/">
         Home
       </NavLink>
       <NavLink className="btn" activeClassName="btn-primary" to="/ngoquangduong">
@@ -21,9 +21,7 @@ const App: React.FC = () => (
       </NavLink>
     </div>
     <Switch>
-      <Route exact path="/">
-        Home
-      </Route>
+      <Route exact path="/" />
       <Route path="/ngoquangduong">
         <NgoQuangDuong />
       </Route>
