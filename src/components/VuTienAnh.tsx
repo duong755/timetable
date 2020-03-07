@@ -28,11 +28,9 @@ const VuTienAnh: React.FC = () => {
           </td>
           <td></td>
           <td className={clsx(classes.subject)} rowSpan={2}>
-            <Subject id="" name="C/C++ (practice)" room="206CT1" lecturer="" />
+            <Subject id="" name="Fortran (practice)" room="206CT1" lecturer="" />
           </td>
-          <td className={clsx(classes.subject)} rowSpan={2}>
-            <Subject id="" name="Python (theory)" room="202T4" lecturer="" note="(optional)" />
-          </td>
+          <td></td>
           <td className={clsx(classes.subject)} rowSpan={3}>
             <Subject id="" name="Genetics (theory)" room="306T5" lecturer="" />
           </td>
@@ -58,7 +56,7 @@ const VuTienAnh: React.FC = () => {
         <tr>
           <td>4</td>
           <td className={clsx(classes.subject)} rowSpan={2}>
-            <Subject id="" name="C/C++ (theory)" room="511T4" lecturer="" />
+            <Subject id="" name="Fortran (theory)" room="511T4" lecturer="" />
           </td>
           <td className={clsx(classes.subject)} rowSpan={2}>
             <Subject id="" name="Botany (practice)" room="232T1" lecturer="" />
@@ -102,9 +100,7 @@ const VuTienAnh: React.FC = () => {
         </tr>
         <tr>
           <td>8</td>
-          <td className={clsx(classes.subject)} rowSpan={2}>
-            <Subject id="" name="Python (practice)" room="?" lecturer="" note="(optional)" />
-          </td>
+          <td></td>
           <td></td>
           <td></td>
           <td></td>
@@ -112,6 +108,7 @@ const VuTienAnh: React.FC = () => {
         </tr>
         <tr>
           <td>9</td>
+          <td></td>
           <td></td>
           <td className={clsx(classes.subject)} rowSpan={2}>
             <Subject id="" name="Genetics (practice)" room="235T1" lecturer="" />
