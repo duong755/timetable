@@ -1,8 +1,8 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route, NavLink } from 'react-router-dom';
+import { BrowserRouter, Switch, NavLink, Route } from 'react-router-dom';
 
-import NgoQuangDuong from './components/NgoQuangDuong';
-import VuTienAnh from './components/VuTienAnh';
+import Classes from './components/Classes';
+import Exams from './components/Exams';
 
 const App: React.FC = () => (
   <BrowserRouter>
@@ -11,22 +11,18 @@ const App: React.FC = () => (
     </div>
     <div className="p-3">
       <NavLink className="btn" exact activeClassName="btn-primary" to="/">
-        Home
+        Thời khóa biểu
       </NavLink>
-      <NavLink className="btn" activeClassName="btn-primary" to="/ngoquangduong">
-        Ngo Quang Duong
-      </NavLink>
-      <NavLink className="btn" activeClassName="btn-primary" to="/vutienanh">
-        Vu Tien Anh
+      <NavLink className="btn" activeClassName="btn-primary" to="/exams">
+        Lịch thi
       </NavLink>
     </div>
     <Switch>
-      <Route exact path="/" />
-      <Route path="/ngoquangduong">
-        <NgoQuangDuong />
+      <Route exact path="/">
+        <Classes />
       </Route>
-      <Route path="/vutienanh">
-        <VuTienAnh />
+      <Route path="/exams">
+        <Exams />
       </Route>
     </Switch>
   </BrowserRouter>

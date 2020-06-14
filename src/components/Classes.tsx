@@ -4,7 +4,7 @@ import clsx from 'clsx';
 import Subject from './Subject';
 import useStyles from './styles';
 
-const NgoQuangDuong: React.FC = () => {
+const Classes: React.FC = () => {
   const classes = useStyles();
   return (
     <table className="table table-striped table-hover table-bordered">
@@ -93,11 +93,9 @@ const NgoQuangDuong: React.FC = () => {
           <td>8</td>
           <td></td>
           <td></td>
-          <td></td>
         </tr>
         <tr>
           <td>9</td>
-          <td></td>
           <td></td>
           <td></td>
           <td></td>
@@ -153,4 +151,4 @@ const NgoQuangDuong: React.FC = () => {
   );
 };
 
-export default NgoQuangDuong;
+export default Classes;
