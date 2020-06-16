@@ -52,6 +52,12 @@ const exams: Exam[] = [
     datetime: '2020-07-06 07:00:00',
   },
   {
+    id: 'INT3401 11',
+    name: 'Trí tuệ nhân tạo',
+    room: '(302,303)-GĐ2',
+    datetime: '2020-07-06 13:00:00'
+  },
+  {
     id: 'INT2207 4',
     name: 'Cơ sở dữ liệu',
     room: 'PM 201-G2',
