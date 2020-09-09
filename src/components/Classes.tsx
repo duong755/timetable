@@ -49,7 +49,9 @@ const Classes: React.FC = () => {
           <td className={classes.subject} rowSpan={3}>
             <Subject id="ELT2028 4" name="Chuyên nghiệp trong công nghệ" room="413 Viện cơ học" lecturer="TS Nguyễn Hoàng Nam" />
           </td>
-          <td></td>
+          <td className={classes.subject} rowSpan={3}>
+            <Subject id="INT3305 1" name="Truyền thông đa phương tiện" room="" lecturer="TS Hoàng Xuân Tùng" />
+          </td>
           <td></td>
           <td></td>
         </tr>
@@ -58,11 +60,9 @@ const Classes: React.FC = () => {
           <td></td>
           <td></td>
           <td></td>
-          <td></td>
         </tr>
         <tr>
           <td>6</td>
-          <td></td>
           <td></td>
           <td></td>
           <td></td>
