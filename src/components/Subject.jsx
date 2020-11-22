@@ -1,14 +1,14 @@
 import React from "react";
 import * as PropTypes from "prop-types";
-export interface SubjectProps {
-  id: string;
-  name?: string | null | undefined;
-  room?: string | null | undefined;
-  lecturer?: string | null | undefined;
-  note?: string | null | undefined;
-}
 
-const Subject: React.FC<SubjectProps> = props => {
+/**
+ * @typedef {{ id: string; name?: string | null | undefined; room?: string | null | undefined; lecturer?: string | null | undefined; note?: string | null | undefined }} SubjectProps
+ */
+
+/**
+ * @type {React.FC<SubjectProps>}
+ */
+const Subject = props => {
   return (
     <div>
       <strong>{props.id}</strong>

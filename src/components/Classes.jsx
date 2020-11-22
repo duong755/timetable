@@ -4,7 +4,10 @@ import clsx from 'clsx';
 import Subject from './Subject';
 import useStyles from './styles';
 
-const Classes: React.FC = () => {
+/**
+ * @type {React.FC}
+ */
+const Classes = () => {
   const classes = useStyles();
   return (
     <table className={clsx("table", "table-striped", "table-hover", "table-bordered")}>
