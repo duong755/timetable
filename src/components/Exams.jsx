@@ -42,8 +42,8 @@ const exams = [
   {
     id: 'INT2212 4',
     name: 'Kiến trúc máy tính',
-    room: '103-G2',
-    datetime: '2020-12-24 09:30:00'
+    room: '311-E3',
+    datetime: '2020-12-22 15:30:00'
   },
   {
     id: 'INT3305 1',
