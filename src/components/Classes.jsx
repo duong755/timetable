@@ -25,16 +25,17 @@ const Classes = () => {
         <tr>
           <td>1</td>
           <td></td>
-          <td className={classes.subject} rowSpan={3}>
-            <Subject id="INT3507 1" name="Các vấn đề hiện đại của CNTT" room="308 G2" lecturer="PGS. TS. Lê Thanh Hà" />
+          <td className={clsx(classes.subject)} rowSpan={3}>
+            <Subject id="INT3506 2" name="Các hệ thống thương mại điện tử" room="307-GĐ2" lecturer="PGS. Bùi Quang Hưng" />
           </td>
           <td></td>
-          <td></td>
+          <td className={clsx(classes.subject)} rowSpan={3}>
+            <Subject id="INT3213 1" name="Nhập môn an toàn thông tin" room="101-G8" lecturer="TS. Lê Phê Đô" />
+          </td>
           <td></td>
         </tr>
         <tr>
           <td>2</td>
-          <td></td>
           <td></td>
           <td></td>
           <td></td>
@@ -44,22 +45,20 @@ const Classes = () => {
           <td></td>
           <td></td>
           <td></td>
-          <td></td>
         </tr>
         <tr>
           <td>4</td>
+          <td className={clsx(classes.subject)} rowSpan={3}>
+            <Subject id="INT3117 1" name="Kiểm thử" room="308-G2" lecturer="ThS. Nguyễn Thu Trang" />
+          </td>
           <td></td>
-          <td className={classes.subject} rowSpan={3}>
-            <Subject id="ELT2028 4" name="Chuyên nghiệp trong công nghệ" room="413 Viện cơ học" lecturer="TS Nguyễn Hoàng Nam" />
-          </td>
-          <td className={classes.subject} rowSpan={3}>
-            <Subject id="INT3305 1" name="Truyền thông đa phương tiện" room="" lecturer="TS Hoàng Xuân Tùng" />
-          </td>
+          <td></td>
           <td></td>
           <td></td>
         </tr>
         <tr>
           <td>5</td>
+          <td></td>
           <td></td>
           <td></td>
           <td></td>
@@ -69,21 +68,21 @@ const Classes = () => {
           <td></td>
           <td></td>
           <td></td>
+          <td></td>
         </tr>
         <tr>
           <td>7</td>
-          <td className={classes.subject} rowSpan={3}>
-            <Subject id="ELT2035 1" room="215 GĐ3" lecturer="TS Lâm Sinh Công" name="Tín hiệu và hệ thống"  />
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td className={clsx(classes.subject)} rowSpan={3}>
+            <Subject id="INT3207 1" name="Kho dữ liệu" room="107-G2" lecturer="PGS. Bùi Quang Hưng" />
           </td>
-          <td></td>
-          <td></td>
-          <td className={classes.subject} rowSpan={4}>
-            <Subject id="INT2212 4" room="303 G2" lecturer="PGS. TS Nguyễn Trí Thành" name="Kiến trúc máy tính" />
-          </td>
-          <td></td>
         </tr>
         <tr>
           <td>8</td>
+          <td></td>
           <td></td>
           <td></td>
           <td></td>
@@ -91,27 +90,30 @@ const Classes = () => {
         <tr>
           <td>9</td>
           <td></td>
-          <td className={classes.subject} rowSpan={4}>
-            <Subject id="POL1001 1" name="Tư tưởng Hồ Chí Minh" room="101 G2" lecturer="ThS Hoàng Thị Ngọc Minh" />
-          </td>
+          <td></td>
+          <td></td>
           <td></td>
         </tr>
         <tr>
           <td>10</td>
           <td></td>
-          <td className={classes.subject} rowSpan={3}>
-            <Subject id="INT3206 1" name="Cơ sở dữ liệu phân tán" room="308 G2" lecturer="ThS Vũ Bá Duy" />
-          </td>
           <td></td>
+          <td></td>
+          <td></td>
+          <td className={clsx(classes.subject)} rowSpan={3}>
+            <Subject id="INT3505 1" name="Kiến trúc hướng dịch vụ" room="308-G2" lecturer="TS. Võ Đình Hiếu" />
+          </td>
         </tr>
         <tr>
           <td>11</td>
           <td></td>
           <td></td>
           <td></td>
+          <td></td>
         </tr>
         <tr>
           <td>12</td>
+          <td></td>
           <td></td>
           <td></td>
           <td></td>
