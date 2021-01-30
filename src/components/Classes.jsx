@@ -26,7 +26,7 @@ const Classes = () => {
           <td>1</td>
           <td></td>
           <td className={clsx(classes.subject)} rowSpan={3}>
-            <Subject id="INT3506 2" name="Các hệ thống thương mại điện tử" room="307-GĐ2" lecturer="PGS. Bùi Quang Hưng" />
+            <Subject id="INT3506 2" name="Các hệ thống thương mại điện tử" room="308-GĐ2" lecturer="PGS. Bùi Quang Hưng" />
           </td>
           <td></td>
           <td className={clsx(classes.subject)} rowSpan={3}>
